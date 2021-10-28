@@ -5,7 +5,22 @@
 
 header{
     background: rgba(0, 0, 0, .25);
+    display: flex;
 }
+#logo{
+    width: 100px;
+    height: 50px;
+    background: rgba(0, 0, 0, .25);
+}
+
+nav{
+    background: rgba(0, 0, 0, .25);
+}
+
+nav ul li{
+    display: inline;
+}
+
 #hero{
     background: rgba(0, 0, 0, .25);
 }
