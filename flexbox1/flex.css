@@ -1,0 +1,20 @@
+#parent {
+    background: lightblue;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.childItem {
+    flex-basis: 300px;
+}
+.child1 {
+    background: lightcoral;
+    flex-shrink: 3;
+}
+.child2 {
+    background: darkcyan;
+    flex-grow: 1;
+}
+.child3 {
+    background: aqua;
+    flex-shrink: 3;
+}
