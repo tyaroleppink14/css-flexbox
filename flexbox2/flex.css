@@ -3,30 +3,79 @@
     padding: 0;
 }
 
-header{
-    background: rgba(0, 0, 0, .25);
+header {
+    background: rgba(0, 0, 0, 0.25);
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
-#logo{
+
+#logo {
     width: 100px;
     height: 50px;
-    background: rgba(0, 0, 0, .25);
+    background: rgba(0, 0, 0, 0.25);
 }
 
-nav{
-    background: rgba(0, 0, 0, .25);
+nav {
+    background: rgba(0, 0, 0, 0.25);
 }
 
-nav ul li{
+nav ul li {
     display: inline;
 }
 
-#hero{
-    background: rgba(0, 0, 0, .25);
+#hero {
+    background: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
-#articles{
-    background: rgba(0, 0, 0, .25);
+.wrapperhero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-footer{
-    background: rgba(0, 0, 0, .25);
+.herographic {
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.herographic img {
+    width: 100%;
+}
+
+.heroheading {
+    margin: 0 0 10px 10px;
+}
+.herobutton {
+    background: rgba(0, 0, 0, 0.25);
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#articles {
+    background: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.articlecontainer img {
+    width: 100%;
+}
+.articlecontainer {
+    background: rgba(0, 0, 0, 0.25);
+    width: 300px;
+    margin: 1em;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.25);
+    height: 50px;
+    text-align: center;
+}
+footer nav {
+    background: none;
 }
